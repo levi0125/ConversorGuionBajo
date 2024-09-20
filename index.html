@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor A Guiones BAjos</title>
+</head>
+<body>
+    <style>
+        body{
+            display:flex;
+            justify-content: center;
+        }
+        .container{
+            width:60%;
+            border:2px solid black;
+            section{
+                width:100%;    
+                display:flex;
+                flex-direction: column;
+                justify-content: center;
+                label{
+                    width: 100%;
+                    display: block;
+                }
+            }
+        }
+        #resultado{
+            padding:10px;
+            background-color: rgb(71, 216, 204);
+        }
+    </style>
+    <div class="container">
+        <section>
+            <label for="">TEXTO A CONVERTIR</label>
+            <textarea name="" id="getTexto" cols="30" rows="10"></textarea>
+            <button id="convertir">CONVERTIR</button>
+        </section>
+        
+        <section>
+            <label >Texto Convertido</label>
+            <textarea name="" id="resultado" cols="30" rows="10"></textarea> 
+        </section>
+    </div>
+
+    <script>
+        document.getElementById('convertir').onclick=function(){
+            let divisiones=document.querySelector('#getTexto').value.replaceAll('  ',' ').split('\n')
+            let fText="";
+
+            for (let sentence of divisiones){
+                let changed=sentence.replaceAll(' ','')
+                if(changed!="" && changed!="\n"){
+                    fText+=sentence+"___"
+                }
+            }
+
+            // for(let division of divisiones){
+            //     fText+=division+" __ "
+            // }
+            document.querySelector('#resultado').value=fText.replaceAll('  ','')
+        }
+    </script>
+</body>
+</html>

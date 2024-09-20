@@ -1,0 +1,37 @@
+Un fluido es una sustancia que se 
+ continuamente cuando se le aplica un esfuerzo 
+ por pequeño que sea.
+
+Este grupo de sustancias tiene propiedades cuya magnitud nos indican el 
+ en que se encuentran, algunas de estas son:
+
+     
+: es la resistencia que openen las moleculas que conforman el fluido a la 
+ ocasionada por
+
+                      una fuerza 
+ o 
+, es importante resaltar que esta propiedad es aplicable unicamente a
+
+                      los fluidos en 
+  
+
+     
+: es una medida de cuán 
+ es un fluido a los intentos de moverse a 
+ de él, se definen
+
+                      dos  tipos de 
+, 
+ y 
+ 
+
+     
+: se comprta como si en la 
+ de los 
+ se formara una 
+ finísima y
+
+                      
+ que 
+ al fluido y lo mantiene
